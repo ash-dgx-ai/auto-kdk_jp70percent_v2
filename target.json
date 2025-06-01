@@ -1,0 +1,10 @@
+{
+    "include": [
+        {
+            "keyboard": "jp70percent_v2",
+            "keymap": "vial",
+            "target": "uf2",
+            "name": "jp70percent_v2_vial"
+        }
+    ]
+}
