@@ -28,8 +28,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                    KC_L,    KC_SEMICOLON,        KC_QUOTE,    KC_BACKSLASH,
           KC_LEFT_SHIFT,            KC_Z,            KC_X,            KC_C,
                    KC_V,            KC_B,            KC_N,            KC_M,
-               KC_COMMA,          KC_DOT,        KC_SLASH,     KC_KP_MINUS,
-                  KC_UP,  KC_RIGHT_SHIFT,    KC_LEFT_CTRL,           MO(1),
+               KC_COMMA,          KC_DOT,        KC_SLASH,           KC_NO,
+                  KC_UP,   QK_BOOTLOADER,    KC_LEFT_CTRL,           MO(1),
         KC_SYSTEM_REQUEST, (QK_LALT|KC_NO),        KC_ENTER,        KC_SPACE,
                   KC_NO,           KC_NO,           KC_NO,           KC_NO,
                 KC_LEFT,         KC_DOWN,        KC_RIGHT
